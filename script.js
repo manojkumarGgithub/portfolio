@@ -14,7 +14,23 @@ const projects = [
     tags: ["HTML", "CSS", "JavaScript", "PHP", "Mysql"],
     githubLink: "https://github.com/manojkumarGgithub/gradguy",
     demoVideo: "videos/gradguy.mp4"
+  },
+  {
+    title: "GMRIT Canteen Management System",
+    description: "Built a full-stack web application using Spring Boot and MySQL to manage canteen operations. Implemented customer, inventory, and order management ",
+    image: "images/canteen.png.png",
+    tags: ["Java Springboot ,MYSQL, HTML ,CSS, JS "],
+    githubLink: "https://github.com/manojkumarGgithub/Gmritcanteen",
+  },
+  {
+    title: "Streamlining-ticket-assignment ",
+    description: " Designed an automated system to streamline the ticket routing process, ensuring accurate assignment of tickets.",
+    image: "images/service.png",
+    tags: ["ServiceNow "],
+    githubLink: "https://github.com/manojkumarGgithub/streamlining-ticket-assignment-for-efficient-support-operations"
+
   }
+
 ];
 
 // Function to generate project cards
@@ -108,3 +124,5 @@ document.addEventListener('DOMContentLoaded', () => {
   handleFormSubmission();
   initSmoothScroll();
 });
+
+
